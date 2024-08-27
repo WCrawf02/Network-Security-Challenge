@@ -26,9 +26,16 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
     - **--min-rate=9326**: Nmap sends packets at a rate of 9326 per second.
     - **-vv**: Produces a very verbose output, providing more detailed information during the scan.
 
- **4.)** What is the flag hidden in HTTP server header?
+ **4.)** What is the flag hidden in HTTP server header? ***THM{web_server_25352}***
  
- **5.)** What is the flag hidden in the SSH server header?
+ **5.)** What is the flag hidden in the SSH server header? ***THM{946219583339}***
+
+![NetSec(2)](https://github.com/user-attachments/assets/6f725e8e-217b-415e-b6dd-b9a250ac36e7)
+
+- Answer breakdown:
+  - Scroll down slightly from the previous screenshot to capture the needed flags 😃
+
+
  
  **6.)** We have an FTP server listening on a nonstandard port. What is the version of the FTP server?
  
