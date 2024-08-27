@@ -39,10 +39,13 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
 ![NetSec(2)](https://github.com/user-attachments/assets/fc5a9031-e795-400a-a972-630de3c69198)
 
  
- 
- 
  **7.)** We learned two usernames using social engineering: **eddie** and **quinn**. What is the flag hidden in one of these two account files and accessible via 
          FTP?
+
+![NetSec(eddie)](https://github.com/user-attachments/assets/95c8a649-e860-4d3e-9c71-ec9af659720c)
+
+![NetSec(quinn)](https://github.com/user-attachments/assets/6611e4a5-93aa-4d8a-a8b0-518bdf9e016e)
+
          
  **8.)** Browsing **http://10.10.82.134:8080** displays a small challenge that will give you a flag once you solve it. What is the flag?
 
