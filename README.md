@@ -40,7 +40,7 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
 
  
  **7.)** We learned two usernames using social engineering: **eddie** and **quinn**. What is the flag hidden in one of these two account files and accessible via 
-         FTP?
+         FTP? ***THM{321452667098}
  - Answer breakdown:
    - Run **hydra** to brute-force the password for usernames.
      - Scripts ran: **hydra -l [username] -P /usr/share/wordlists/rockyou.txt -vV [TARGET_MACHINE_IP] [port number]
@@ -49,6 +49,8 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
 ![NetSec(eddie)](https://github.com/user-attachments/assets/95c8a649-e860-4d3e-9c71-ec9af659720c)
 
 ![NetSec(quinn)](https://github.com/user-attachments/assets/6611e4a5-93aa-4d8a-a8b0-518bdf9e016e)
+
+- Next, we must login to the ftp server and discover our flag 😃
 
          
  **8.)** Browsing **http://10.10.82.134:8080** displays a small challenge that will give you a flag once you solve it. What is the flag?
