@@ -40,7 +40,7 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
 
  
  **7.)** We learned two usernames using social engineering: **eddie** and **quinn**. What is the flag hidden in one of these two account files and accessible via 
-         FTP? ***THM{321452667098}**
+         FTP? ***THM{321452667098}***
          
 - Answer breakdown:
    - Run **hydra** to brute-force the password for usernames.
@@ -54,6 +54,9 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
 - Next, we must login to the ftp server and discover our flag 😃
 
          
- **8.)** Browsing **http://10.10.82.134:8080** displays a small challenge that will give you a flag once you solve it. What is the flag?
+ **8.)** Browsing **http://10.10.82.134:8080** displays a small challenge that will give you a flag once you solve it. What is the flag? ***THM{f7443f99}***
 
-
+ - Answer breakdown:
+   - To finish our challenge we navigate to the above domain: **nmap -sN [TARGET_MACHINE_IP]**
+   - **Nmap -sN** is used to perform a TCP Null Scan; we can probe the target system by sending packets without any flags set in the TCP header, with the goal to 
+     determine the state of ports on the target.
