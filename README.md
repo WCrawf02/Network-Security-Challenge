@@ -41,6 +41,10 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
  
  **7.)** We learned two usernames using social engineering: **eddie** and **quinn**. What is the flag hidden in one of these two account files and accessible via 
          FTP?
+ - Answer breakdown:
+   - Run **hydra** to brute-force the password for usernames.
+     - Scripts ran: **hydra -l [username] -P /usr/share/wordlists/rockyou.txt -vV [TARGET_MACHINE_IP] [port number]
+     - ***Note***: The **/usr/share/wordlists/rockyou.txt** file is a pre-complied list of breached passwords.
 
 ![NetSec(eddie)](https://github.com/user-attachments/assets/95c8a649-e860-4d3e-9c71-ec9af659720c)
 
