@@ -17,6 +17,8 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
 
 ![NetSec(1)](https://github.com/user-attachments/assets/5a8a443f-13c4-4715-98ec-fb257aaf958c)
 
-  
+- Let's dive into the answers:
+  - To begin, I ran a simple nmap scan: **nmap -sC -sV -p- -T4 --min-rate=9326 -vv 10.10.82.134
+    - nmap scrript breakdown: **-sC**: 
 
 
