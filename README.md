@@ -8,6 +8,11 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
 ## **Challenge Questions**
 - Quick note: All questions will be answered using Nmap, Telnet, and Hydra 😃
 
+  1.) What is the highest port number being open less than 10,000?
+  2.) There is an open port outside the common 1000 ports; it is above 10,000. What is it?
+  3.) How many TCP ports are open?
+![NetSec(1)](https://github.com/user-attachments/assets/5a8a443f-13c4-4715-98ec-fb257aaf958c)
 
+  
 
 
