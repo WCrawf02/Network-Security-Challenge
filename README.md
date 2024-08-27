@@ -14,8 +14,8 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
   
   **3.)** How many TCP ports are open? ***6***
   
+![NetSec(1)](https://github.com/user-attachments/assets/00af5b58-a2dc-4ed5-878d-fd6e054d4250)
 
-![NetSec(1)](https://github.com/user-attachments/assets/5a8a443f-13c4-4715-98ec-fb257aaf958c)
 
 - Let's dive into the answers:
   - To begin, I ran a simple nmap scan: **nmap -sC -sV -p- -T4 --min-rate=9326 -vv 10.10.82.134. Lets break down the script:
@@ -30,14 +30,16 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
  
  **5.)** What is the flag hidden in the SSH server header? ***THM{946219583339}***
 
-![NetSec(2)](https://github.com/user-attachments/assets/6f725e8e-217b-415e-b6dd-b9a250ac36e7)
+**6.)** We have an FTP server listening on a nonstandard port. What is the version of the FTP server? ***vsftpd 3.0.3***
 
 - Answer breakdown:
   - Scroll down slightly from the previous screenshot to capture the needed flags 😃
+  - We are also able to discover the FTP server version listening.
 
+![NetSec(2)](https://github.com/user-attachments/assets/fc5a9031-e795-400a-a972-630de3c69198)
 
  
- **6.)** We have an FTP server listening on a nonstandard port. What is the version of the FTP server?
+ 
  
  **7.)** We learned two usernames using social engineering: **eddie** and **quinn**. What is the flag hidden in one of these two account files and accessible via 
          FTP?
