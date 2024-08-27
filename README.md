@@ -60,3 +60,7 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
    - To finish our challenge we navigate to the above domain: **nmap -sN [TARGET_MACHINE_IP]**
    - **Nmap -sN** is used to perform a TCP Null Scan; we can probe the target system by sending packets without any flags set in the TCP header, with the goal to 
      determine the state of ports on the target.
+
+## Conclusin 
+
+In this module, we had a blast diving into network security with tools like Nmap, telnet, and hydra. From mastering basic port scans to uncovering vulnerabilities through social engineering, every step felt like a thrilling puzzle. Along the way, I learned the ins and outs of TCP and UDP port scanning, explored different Nmap flags, and cracked some fun challenges using FTP and SSH. Though some tasks test my skills and patience, it was never too difficult - just the right balance of challenge and learning. This journey helped solidify my understanding of network security, and I can't wait for what is next!
