@@ -18,7 +18,12 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
 ![NetSec(1)](https://github.com/user-attachments/assets/5a8a443f-13c4-4715-98ec-fb257aaf958c)
 
 - Let's dive into the answers:
-  - To begin, I ran a simple nmap scan: **nmap -sC -sV -p- -T4 --min-rate=9326 -vv 10.10.82.134
-    - nmap scrript breakdown: **-sC**: 
+  - To begin, I ran a simple nmap scan: **nmap -sC -sV -p- -T4 --min-rate=9326 -vv 10.10.82.134. Lets break down the script:
+    - **-sC**: Runs specific scripts on the target (**10.10.82.134**) to see what actions or vulnerabilities may exist.
+    - **-sV**: Detects the versions of services running on a target.
+    - **-p-**: Scans all available ports.
+    - **-T4**: Speeds up the scan (T5 is the fastest).
+    - **--min-rate=9326**: Nmap sends packets at a rate of 9326 per second.
+    - **-vv**: Produces a very verbose output, providing more detailed information during the scan.
 
 
