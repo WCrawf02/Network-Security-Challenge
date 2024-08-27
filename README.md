@@ -27,10 +27,14 @@ Welcome to my **Network Security Challenge** project! This challenge serves as t
     - **-vv**: Produces a very verbose output, providing more detailed information during the scan.
 
  **4.)** What is the flag hidden in HTTP server header?
+ 
  **5.)** What is the flag hidden in the SSH server header?
+ 
  **6.)** We have an FTP server listening on a nonstandard port. What is the version of the FTP server?
+ 
  **7.)** We learned two usernames using social engineering: **eddie** and **quinn**. What is the flag hidden in one of these two account files and accessible via 
          FTP?
+         
  **8.)** Browsing **http://10.10.82.134:8080** displays a small challenge that will give you a flag once you solve it. What is the flag?
 
 
